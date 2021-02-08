@@ -1,0 +1,30 @@
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submit {
+  background-color: rgb(46, 177, 133);
+}
+
+
+.image {
+  text-align: center;
+  padding: 1rem;
+  display: inline-grid;
+
+}
+
+.picture {
+  justify-self: center;
+  height: 22rem;
+  width: auto;
+}
+
